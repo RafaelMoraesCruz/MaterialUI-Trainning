@@ -12,8 +12,8 @@ import FoundationIcon from '@mui/icons-material/Foundation';
 
 export default function Adjectives() {
   return (
-    <Grid container backgroundColor='#1976d2' spacing={1} padding={'5% 7%'} columns={{ xs: 4, sm: 8, md: 12 }}>
-      <Grid item textAlign={'center'} xs={3} >
+    <Grid container alignItems={'center'} minHeight={350} spacing={1} padding={'5% 7%'} columns={{ xs: 4, sm: 8, md: 12 }}>
+      <Grid item textAlign={'center'} xs={3}>
         <Card sx={{backgroundColor: 'white',opacity: 0.85}}>
           <CardActionArea>
             <AccessAlarmIcon/>
@@ -67,7 +67,7 @@ export default function Adjectives() {
               Tecnologia
               </Typography>
               <Typography variant="body2" color="text.secondary">
-              Alinhados com as inovações do mercado, nosso departamento de engenharia está em constante aprimoramento.
+              Alinhados com as inovações do mercado, nossa empresa está sempre crescendo
               </Typography>
             </CardContent>
           </CardActionArea>

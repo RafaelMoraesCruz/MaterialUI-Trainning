@@ -3,14 +3,14 @@ import { Container } from "@mui/system";
 
 function About() {
   return (
-    <Grid container spacing={2}  minHeight={250} padding={'5% 7%'} columns={{ xs: 4, sm: 8, md: 12 }} sx={{backgroundColor: 'lightblue',textAlign:'center'}} >
+    <Grid container spacing={2}  minHeight={350} padding={'5% 7%'} columns={{ xs: 4, sm: 8, md: 12 }} sx={{textAlign:'center'}} >
       <Grid item xs={6} margin='auto'>
-        <Typography variant="h2" color="GrayText" gutterBottom>
+        <Typography variant="h2" color="CaptionText" gutterBottom>
           Construindo vidas
         </Typography>
       </Grid>
       <Grid item xs={6} margin='auto'>
-        <Typography variant="h5" textAlign={'center'} justifyContent='center' color="GrayText" paragraph>
+        <Typography variant="h5" textAlign={'center'} paragraph>
         O tempo sempre foi o bem mais precioso que temos. Seja um investimento, uma etapa do seu projeto de vida ou a liberdade de ter sua casa própria, economizar tempo é fundamental. Ter uma empresa profissional, dedicada e experiente à sua disposição garantirá o sucesso do seu negócio e lhe dará mais tempo para focar no que mais importa: viver bem!
         </Typography>
       </Grid>

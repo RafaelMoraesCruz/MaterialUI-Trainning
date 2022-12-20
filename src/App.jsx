@@ -18,10 +18,12 @@ import Adjectives from "./components/Adjectives";
 const App = () => {
   return (
     <>
-        <CssBaseline />
-        <Header />
+      <CssBaseline />
+      <Header />
+      <div style={{backgroundImage: 'linear-gradient(135deg, #1976d2, lightblue)'}}>
         <About />
         <Adjectives />
+      </div>
     </>
   );
 };
