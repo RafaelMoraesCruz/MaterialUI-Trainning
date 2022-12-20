@@ -13,6 +13,7 @@ import {
 import React from "react";
 import Header from "./components/Header";
 import About from "./components/About";
+import Adjectives from "./components/Adjectives";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <CssBaseline />
         <Header />
         <About />
+        <Adjectives />
     </>
   );
 };
