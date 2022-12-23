@@ -12,7 +12,7 @@ import FoundationIcon from '@mui/icons-material/Foundation';
 
 export default function Adjectives() {
   return (
-    <Grid container alignItems={'center'} minHeight={350} spacing={1} padding={'5% 7%'} columns={{ xs: 4, sm: 8, md: 12 }}>
+    <Grid container alignItems={'center'} spacing={1} padding={'5% 7%'} columns={{ xs: 4, sm: 8, md: 12 }}>
       <Grid item textAlign={'center'} xs={3}>
         <Card sx={{backgroundColor: 'white',opacity: 0.85}}>
           <CardActionArea>
@@ -49,10 +49,10 @@ export default function Adjectives() {
             <FoundationIcon />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
-                Construções Rápidas
+                Qualidade Construtiva
               </Typography>
               <Typography variant="body2" color="text.secondary">
-              Focados na agilidade, nossos profissionais garantem a execução rápida dos projetos.
+              Construímos com materiais de alta qualidade e fornecedores competitivos
               </Typography>
             </CardContent>
           </CardActionArea>
